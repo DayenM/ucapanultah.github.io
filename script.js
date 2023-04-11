@@ -1,14 +1,14 @@
 AOS.init();
 
-// var musik = "";
+var musik = "";
 
-// var audio = document.querySelector(".audio");
-// if (musik) {
-//   audio.src = musik;
-// }
+var audio = document.querySelector(".audio");
+if (musik) {
+  audio.src = musik;
+}
 
 function mulai() {
-  // audio.play(); 
+  audio.play(); 
   document.querySelector(".open").style = "opacity: 0;"; 
   document.querySelector(".body").style = "overflow-y: scroll;"; 
   setTimeout(function () { 
