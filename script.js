@@ -8,7 +8,7 @@ if (musik) {
 }
 
 function mulai() {
-  audio.play(); 
+  audio.play();
   document.querySelector(".open").style = "opacity: 0;"; 
   document.querySelector(".body").style = "overflow-y: scroll;"; 
   setTimeout(function () { 
